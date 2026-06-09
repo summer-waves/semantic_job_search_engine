@@ -166,39 +166,6 @@ BM25 prioritizes exact keyword overlap. A hybrid system would outperform either 
 
 ---
 
-## ⚙️ How to run
-
-### Prerequisites
-* Python 3.11+
-* Cursor IDE or VS Code
-
-### 1. Create virtual environment
-```bash
-python -m venv venv
-venv\Scripts\activate        # Windows
-source venv/bin/activate     # Mac/Linux
-```
-
-### 2. Install dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Start the API
-```bash
-uvicorn app.main:app --reload --port 8000
-```
-
-Open `http://127.0.0.1:8000/docs` for the interactive Swagger UI.
-
-### 4. Run with Docker
-```bash
-docker build -t job-search .
-docker run -p 8000:8000 job-search
-```
-
----
-
 ## 🧪 Tests
 
 ```bash
