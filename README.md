@@ -62,6 +62,7 @@ job-search-engine/
 │   └── test_search.py         # 4 pytest integration tests
 ├── conftest.py
 ├── Dockerfile
+├── requirements.docker.txt
 ├── requirements.txt
 └── README.md
 ```
