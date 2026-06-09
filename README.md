@@ -25,10 +25,9 @@ The pipeline:
 6. [Real query results](#-real-query-results)
 7. [API endpoints](#-api-endpoints)
 8. [Screenshots](#-screenshots)
-9. [How to run](#-how-to-run)
-10. [Tests](#-tests)
-11. [Dataset](#-dataset)
-12. [Known limitations & roadmap](#-known-limitations--roadmap)
+9. [Tests](#-tests)
+10. [Dataset](#-dataset)
+11. [Known limitations & roadmap](#-known-limitations--roadmap)
 
 ---
 
