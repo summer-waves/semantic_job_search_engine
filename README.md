@@ -195,6 +195,6 @@ pytest tests/ -v
 | Limitation | Status | Fix |
 |---|---|---|
 | TF-IDF embeddings lack semantic depth | Current | Swap `embedder.py` for `all-MiniLM-L6-v2` |
-| No hybrid search (FAISS + BM25 combined) | Roadmap | Re-ranking pipeline in Project 3 |
+| No hybrid search (FAISS + BM25 combined) | Roadmap | Re-ranking pipeline |
 | Index rebuilt on every restart | Roadmap | Persist FAISS index to `models/jobs.index` |
 | No authentication on API | Known | Add API key middleware for production |
